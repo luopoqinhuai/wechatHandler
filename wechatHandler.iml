@@ -60,5 +60,6 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.json:json:20140107" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: net.minidev:accessors-smart:1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.ow2.asm:asm:5.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.mockito:mockito-all:2.0.2-beta" level="project" />
   </component>
 </module>

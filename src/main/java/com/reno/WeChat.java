@@ -1,7 +1,10 @@
 package com.reno;
 
+import com.reno.utils.wechatConn;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cglib.core.WeakCacheKey;
 
 
 /**
@@ -9,6 +12,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class WeChat {
+    @Autowired
+    private wechatConn conn;
     public static void main(String[] args) {
         SpringApplication app=new SpringApplication(WeChat.class);
         app.run(args);
